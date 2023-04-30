@@ -8,25 +8,24 @@ Download the YOLO weights file from [here](https://drive.google.com/file/d/1Z-jr
 
 Install the required Python packages by running the following command in the backend directory:
 
-Copy code
-'''
-pip install -r requirements.txt
-'''
+'''pip install -r requirements.txt'''
+
 Install the required Flutter packages by running the following command in the flutter_app directory:
-'''
-flutter pub get
-'''
+
+'''flutter pub get'''
+
 In the flutter_app/lib/consts/constants.dart file, replace the URI variable with your local IP address to connect to the Flask backend server.
 Usage
 Start the Flask server by running the following command in the backend directory:
-'''
-python main.py
-'''
+
+'''python main.py'''
+
 Run the Flutter app on an emulator or physical device by running the following command in the flutter_app directory:
-'''
-flutter run
-'''
+
+'''flutter run'''
+
 Use the app to take a picture and detect objects in the image.
+
 Security
 To ensure secure connections between the Flutter app and Flask backend server, it's recommended to use HTTPS and implement proper authentication and authorization mechanisms.
 
