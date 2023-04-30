@@ -3,7 +3,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://docs.flutter.dev/get-started/install)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/2.2.x/quickstart/)
-[![Code License](https://img.shields.io/badge/License-MIT-yellow.svg))](https://github.com/narogishin/object-detection-app/LICENSE)
+[![Code License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/narogishin/object-detection-app/LICENSE)
 
 This project uses the YOLO (You Only Look Once) algorithm for object detection and recognition in a Flutter app. The app connects to a Flask backend server, which runs the Python code for the YOLO algorithm.
 
