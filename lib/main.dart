@@ -1,6 +1,5 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:typed_data';
 
@@ -34,7 +33,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   CameraController? _controller;
   Future<void>? _initializeControllerFuture;
-  final picker = ImagePicker();
 
   @override
   void initState() {

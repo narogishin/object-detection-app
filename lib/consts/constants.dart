@@ -1,1 +1,1 @@
-const String URI = "http://IP_ADRESS:5000";
+const String URI = "IP_ADRESS:PORT";
