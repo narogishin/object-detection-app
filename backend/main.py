@@ -1,10 +1,11 @@
 from flask import Flask, request, jsonify
+import os
 import cv2
 from model import test
 import numpy as np
 
 app = Flask(__name__)
-PATH = "C:/Users/a.haiker/Desktop/Projects/Flutter/object_detector/backend/"
+PATH = os.getcwd()
 
 @app.route('/process_image', methods=['POST'])
 def process_image():
